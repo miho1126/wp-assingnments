@@ -1,18 +1,29 @@
 .header {
   display: flex;
   justify-content: space-between;
-  // opacity: 0;
-  height: 100px;
-  padding-top: 100px;
+  height: 70px;
+  padding-top: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  background: rgba(#FFF,0.5);
+
+  a {
+    text-decoration: none;
+  }
 
   &__logo{
     font-size: 2em;
     margin-left: 100px;
+
   }
 
   &__nav{
     display: flex;
     margin-right: 50px;
+    padding-top: 10px;
 
     & li{
       display: inline;
