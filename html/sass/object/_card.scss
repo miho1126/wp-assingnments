@@ -11,16 +11,19 @@
     object-fit: cover;
   }
 
-  &__title,
-  &__text{
+  &__title{
+    font-size: 1.3em;
+  }
+
+  &__title,&__text{
     text-align: left;
-    padding: 10px;
+    padding-left: 10px;
     letter-spacing: 1;
     opacity: 1;
-    padding-bottom: 20px;
   }
   &__btn {
     display: inline-block;
     text-decoration: none;
+    padding-left: 10px;
   }
 }

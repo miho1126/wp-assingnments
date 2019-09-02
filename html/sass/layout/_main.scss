@@ -3,21 +3,37 @@
     position: relative;
     max-width: 100%;
   }
+  &__img2{
+    max-width: 100%;
+
+  }
   &__text{
     position: absolute;
     font-weight: bold;
+    top: 60%;
+    left: 20%;
+    background:rgba(#fff,0.7);
+    color: aquamarine;
+    font-size: 4em;
   }
 }
 
 .container {
   margin: 120px 120px 30px 120px;
+  line-height: 1.5;
 
   .heading{
     h1,p,a{
       margin: 0 20px 0 40px;
     }
-  }
+    h1{
+      font-size: 2em;
+    }
+    a {
+      margin-left: 85%;
+    }
 
+  }
 
   .cover-card {
     display: flex;
@@ -26,5 +42,28 @@
     justify-content: space-evenly;
     margin-top: 30px;
     line-height: 1.5;
+  }
+
+  .article{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-auto-rows: 1fr;
+    margin-top: 45px;
+    line-height: 1.5;
+
+    &__left{
+      border: 1px solid #000;
+      padding: 50px;
+      display: inline;
+
+      &--img{
+        width: 100px;
+      }
+    }
+    &__right{
+      border: 1px solid #000;
+      padding: 30px;
+    }
+
   }
 }
