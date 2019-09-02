@@ -1,0 +1,15 @@
+$font-fam:'YuGothic','Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', 'Meiryo','ＭＳ ゴシック',sans-serif;//フォントファミリーを設定
+
+$fontsize: 16px; //ベースフォントサイズを設定
+$mt-contents: 30px; //コンテンツ間のマージントップを設定
+
+// 色関連
+$color: #333333; //ベースのフォントカラーを設定
+$bg-color:rgb(228, 226, 226); // containerの背景
+
+
+// リスポンシブ対応
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
