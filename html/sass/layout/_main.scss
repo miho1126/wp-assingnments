@@ -52,7 +52,7 @@
     line-height: 1.5;
 
     &__left{
-      border: 1px solid #000;
+      border: 1px solid #ccc;
       padding: 50px;
       display: inline;
 
@@ -67,7 +67,7 @@
       }
     }
     &__right{
-      border: 1px solid #000;
+      border: 1px solid #ccc;
       padding: 30px;
 
       @mixin box{
