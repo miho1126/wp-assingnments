@@ -70,10 +70,14 @@
       border: 1px solid #000;
       padding: 30px;
 
+      @mixin box{
+        background: $bg-color;
+        padding: 30px;
+      }
+
       .colum{
         &__info{
-          padding: 30px;
-          background: $bg-color;
+          @include box;
         }
 
         &__site{
@@ -91,8 +95,8 @@
         }
 
         &__insta{
-          background: $bg-color;
-          padding: 30px;
+          @include box;
+
           h3{
             font-size: 1.5em;
           }
@@ -104,6 +108,26 @@
             grid-template-rows: 80px 80px;
             img{
               width: 90%;
+            }
+          }
+        }
+        &__icon{
+          @include box;
+          margin-top: 20px;
+
+          h4{
+            font-size: 1.5em;
+          }
+          &--social{
+            margin-top: 20px;
+            color: $color;
+            text-align: center;
+
+            i{
+              padding: 15px;
+              margin-right: 5px;
+              border: 1px solid #ccc;
+              border-radius: 40px;
             }
           }
         }
