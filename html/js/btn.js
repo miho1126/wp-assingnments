@@ -1,22 +1,23 @@
-// ハンバーガーメニュー
 $(function () {
-  $('.menu-trigger').on('click', function () {
+  $('.menuBtn').on('click', function () {
+    let text;
 
-    $('.nav-bar').slideToggle(100, 'swing');
-    $('.menu-trigger__hamburger, .nav-bar').toggleClass('active');
+    if (!$(this).hasClass('on')) {
+      text = 'close';
 
-    if ($('.nav-bar').hasClass('active')) {
-      $('.menu-trigger__label').text('close');
+      $('#menu').slideDown();
     } else {
-      $('.menu-trigger__label').text('menu');
+      text = 'menu';
+      $('#menu').slideUp();
     }
-
+    $(this).toggleClass('on').text(text);
   });
+});
 
-  // topへ戻る
-  $('#top').on('click', function () {
+// topへ戻る
+$('#top').on('click', function () {
 
-    $('body,html').animate({ scrollTop: 0 }, 500);
-  });
+  $('body,html').animate({ scrollTop: 0 }, 500);
+});
 
 });
