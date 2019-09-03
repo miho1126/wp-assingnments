@@ -1,14 +1,14 @@
 $(function () {
-  $('.menuBtn').on('click', function () {
+  $('.menu1-container__menuBtn').on('click', function () {
     let text;
 
     if (!$(this).hasClass('on')) {
       text = 'close';
 
-      $('#menu').slideDown();
+      $('#menuli').slideDown();
     } else {
       text = 'menu';
-      $('#menu').slideUp();
+      $('#menuli').slideUp();
     }
     $(this).toggleClass('on').text(text);
   });
