@@ -12,12 +12,11 @@ $(function () {
     }
     $(this).toggleClass('on').text(text);
   });
-});
+  // });
 
-// topへ戻る
-$('#top').on('click', function () {
+  // topへ戻る
+  $('#top').on('click', function () {
 
-  $('body,html').animate({ scrollTop: 0 }, 500);
-});
-
+    $('body,html').animate({ scrollTop: 0 }, 500);
+  });
 });
