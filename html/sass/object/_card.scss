@@ -27,3 +27,11 @@
     padding-left: 10px;
   }
 }
+
+/* MediaQuery */
+@media only screen and (max-width: $breakpoint-md) {
+  .card{
+    flex-wrap: wrap;
+    align-content: space-around;
+  }
+}

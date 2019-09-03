@@ -1,3 +1,10 @@
 .footer-bottom {
   text-align: center;
 }
+
+@media only screen and (max-width: $breakpoint-md) {
+  .footer-bottom{
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+}
