@@ -1,7 +1,8 @@
-$font-fam:'YuGothic','Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', 'Meiryo','ＭＳ ゴシック',sans-serif;//フォントファミリーを設定
+$font-fam:'Special Elite',cursive,'YuGothic','Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', 'Meiryo','ＭＳ ゴシック',sans-serif;//フォントファミリーを設定
 
 $fontsize: 16px; //ベースフォントサイズを設定
 $mt-contents: 30px; //コンテンツ間のマージントップを設定
+$rlm: 100px 120px 50px 120px; // コンテントの横幅と上下の設定
 
 // 色関連
 $color: #333333; //ベースのフォントカラーを設定
