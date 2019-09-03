@@ -166,6 +166,15 @@
 
 /* MediaQuery */
 @media only screen and (max-width: $breakpoint-md) {
+  .main-img{
+    &__text{
+      font-size: 0.7em;
+      top: 32%;
+      left: 10%;
+      padding: 3px 5px 0 5px;
+      background:rgba(#fff,0.5);
+    }
+  }
   .container{
     margin: 15px;
      .heading{

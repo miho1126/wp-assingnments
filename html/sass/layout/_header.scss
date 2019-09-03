@@ -36,17 +36,23 @@
 
 /* MediaQuery */
 @media only screen and (max-width: $breakpoint-md) {
-
   .header{
-    margin-top: 0;
+    background: none;
+    padding: 0;
+    top: 5%;
+    left: 10%;
+    height: 30px;
+
+    &__logo{
+      padding: 5px;
+      font-size: 1.5em;
+      margin-left: 0;
+      background: rgba(#FFF,0.8);
+      border-radius: 10px;
+    }
     &__nav{
       display: none;
-  }
 
-  &__border{
-    margin-top: 50px;
+    }
   }
-
-  }
-
 }
