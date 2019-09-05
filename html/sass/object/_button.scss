@@ -1,9 +1,9 @@
 .menu1-container{
-   visibility: hidden;
-}
-
-.menuBtn{
+  display: none;
   visibility: hidden;
+  &__menuBtn,&__menuli {
+    visibility: hidden;
+  }
 }
 
 // スマホ時のメニューボタン
